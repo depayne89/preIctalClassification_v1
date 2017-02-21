@@ -1,0 +1,14 @@
+parameter,value,unit
+sample_frequency,399.607222,Hz
+prebuffer,0,minutes
+event_window,5,minutes
+sample_length,30,seconds
+step,10,seconds
+,,
+patient,11,
+channels,16,
+learning_rate,0.00001,
+epochs,250,
+model,CNN_spectrogram,
+sub_model,time_of_day,
+spectrogram_size,32,

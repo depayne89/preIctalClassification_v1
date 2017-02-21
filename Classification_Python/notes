@@ -1,0 +1,11 @@
+Adding section 1 to trainTraceback (most recent call last):
+  File "master.py", line 91, in <module>
+    splits_dir = find_splits.run(raw_dir, data_dir, num_sz)
+  File "/home/daniel/Desktop/GoogleDrive/PhD/Shared/PredictS/BeforeModels/find_splits.py", line 55, in run
+    create_splits.run(raw_dir, split_dir, num_sz)
+  File "/home/daniel/Desktop/GoogleDrive/PhD/Shared/PredictS/BeforeModels/create_splits.py", line 327, in run
+    x_train, x_test, y_train, y_test, hr_train, hr_test = test_train_split2(pre_df, inter_df, .8, num_samples, seizures, raw_dir)
+  File "/home/daniel/Desktop/GoogleDrive/PhD/Shared/PredictS/BeforeModels/create_splits.py", line 221, in test_train_split2
+    x_train[2 * int(cut_lower[i]): 2 * int(cut_upper[i])] = x_tmp
+ValueError: could not broadcast input array from shape (162,191807) into shape (162,191808)
+daniel@daniel-ubuntu-ssd:~/Desktop/GoogleDrive/PhD/Shared/PredictS$
